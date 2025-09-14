@@ -1,7 +1,7 @@
 BBPlugin.register('hidden_cube_cleaner', {
     title: 'Hidden Cube Cleaner',
-    author: 'Your Name',
-    description: 'Removes cubes that are completely hidden inside other cubes.',
+    author: 'Awesome_Dante',
+    description: 'Removes cubes that are completely hidden inside other cubes. Use the tools menu icon to clean.',
     version: '1.0.0',
     variant: 'both',
 
@@ -59,4 +59,5 @@ function findHiddenCubes(cubes) {
         if (contained) hidden.push(c);
     }
     return hidden;
+
 }
